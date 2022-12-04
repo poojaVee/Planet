@@ -1,0 +1,25 @@
+{
+    "name": "end",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --watchAll"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "frontEndSettings": {
+      "entryFile": "/src/index.html",
+      "entryPoint": "/src/main.js",
+      "openFiles": [
+        "/src/index.html",
+        "/src/styles.css"
+      ]
+    },
+    "devDependencies": {
+      "jest": "^26.0.1",
+      "puppeteer": "^3.2.0"
+    }
+  }
